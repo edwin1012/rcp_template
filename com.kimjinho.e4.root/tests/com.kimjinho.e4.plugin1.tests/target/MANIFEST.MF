@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.kimjinho.e4.plugin1.tests
+Bundle-Name: Tests
+Bundle-Version: 1.0.0.201712110843
+Require-Bundle: org.junit
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: KIMJINHO
+Fragment-Host: com.kimjinho.e4.plugin1
+

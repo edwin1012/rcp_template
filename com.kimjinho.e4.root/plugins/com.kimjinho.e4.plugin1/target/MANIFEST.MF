@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.kimjinho.e4.plugin1
+Bundle-Name: Plugin1
+Bundle-Version: 1.0.0.201712110843
+Require-Bundle: org.eclipse.core.runtime
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.kimjinho.e4.plugin1.internal.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: KIMJINHO
+
