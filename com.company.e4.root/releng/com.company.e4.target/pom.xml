@@ -3,20 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.company.e4</groupId>
-	<artifactId>com.company.e4.root</artifactId>
+	<artifactId>com.company.e4.target</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<packaging>eclipse-target-definition</packaging>
 	
 	<parent>
 		<groupId>com.company.e4</groupId>
-		<artifactId>com.company.e4.configuration</artifactId>
+		<artifactId>com.company.e4.releng</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
-		<relativePath>./releng/com.company.e4.configuration</relativePath>
 	</parent>
-	
-	<modules>
-		<module>plugins</module>
-		<module>features</module>
-		<module>releng</module>
-	</modules>
 </project>
