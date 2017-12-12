@@ -15,5 +15,6 @@
 	
 	<modules>
 		<module>com.company.e4.target</module>
+		<module>com.company.e4.product</module>
 	</modules>
 </project>
