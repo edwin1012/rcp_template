@@ -6,7 +6,9 @@ import java.util.List;
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
+import org.eclipse.e4.core.di.annotations.Optional;
 import org.eclipse.e4.ui.di.Focus;
+import org.eclipse.e4.ui.di.UIEventTopic;
 import org.eclipse.e4.ui.workbench.modeling.ESelectionService;
 import org.eclipse.jface.viewers.ArrayContentProvider;
 import org.eclipse.jface.viewers.LabelProvider;
@@ -22,6 +24,14 @@ public class LeftView {
 
 	@Inject
 	private ESelectionService selectionService;
+
+	@Inject
+	@Optional
+	public void personUpdated(@UIEventTopic(PersonEventConstants.TOPIC_PERSON_UPDATE) Person updatedPerson) {
+		if (updatedPerson != null) {
+			System.err.println(updatedPerson);
+		}
+	}
 
 	@PostConstruct
 	public void createControl(Composite parent) {
