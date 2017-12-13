@@ -3,7 +3,7 @@
 <plugin>
 
    <extension
-         id="product"
+         id="e4product"
          point="org.eclipse.core.runtime.products">
       <product
             name="com.company.e4.rcp"
@@ -12,14 +12,6 @@
                name="applicationCSS"
                value="platform:/plugin/com.company.e4.rcp/css/default.css">
          </property>
-      </product>
-   </extension>
-   <extension
-         id="e4product"
-         point="org.eclipse.core.runtime.products">
-      <product
-            application="org.eclipse.e4.ui.workbench.swt.E4Application"
-            name="com.company.e4.rcp">
          <property
                name="appName"
                value="com.company.e4.rcp">
