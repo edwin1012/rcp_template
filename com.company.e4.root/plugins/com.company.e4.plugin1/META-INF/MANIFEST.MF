@@ -1,10 +1,11 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Plugin1
-Bundle-SymbolicName: com.company.e4.plugin1
+Bundle-SymbolicName: com.company.e4.plugin1;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: com.company.e4.plugin1.internal.Activator
 Bundle-Vendor: COMPANY
-Require-Bundle: org.eclipse.core.runtime
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.e4.ui.model.workbench;bundle-version="2.0.1.v20170713-1800"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
