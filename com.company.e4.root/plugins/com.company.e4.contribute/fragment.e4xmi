@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_g9kroOB2EeeEROUx2AgjFQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_uqK-gOB2EeeEROUx2AgjFQ" featurename="commands" parentElementId="org.eclipse.e4.application">
+    <elements xsi:type="commands:Command" xmi:id="_zWyeoOB2EeeEROUx2AgjFQ" elementId="com.company.e4.contribute.command.openmap" commandName="Open Map"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_MD1nMOB3EeeEROUx2AgjFQ" featurename="handlers" parentElementId="org.eclipse.e4.application">
+    <elements xsi:type="commands:Handler" xmi:id="_Mjhz4OB3EeeEROUx2AgjFQ" elementId="com.company.e4.contribute.handler..openmap" contributionURI="bundleclass://com.company.e4.contribute/com.company.e4.contribute.handlers.OpenMapHandler" command="_zWyeoOB2EeeEROUx2AgjFQ"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_N2R1MOB3EeeEROUx2AgjFQ" featurename="children" parentElementId="com.company.e4.rcp.menu.0">
+    <elements xsi:type="menu:Menu" xmi:id="_OU0LUOB3EeeEROUx2AgjFQ" elementId="com.company.e4.contribute.menu.map" label="Map">
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_ijWhMOB3EeeEROUx2AgjFQ" elementId="com.company.e4.contribute.handledmenuitem.openmap" label="Open Map" command="_zWyeoOB2EeeEROUx2AgjFQ"/>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
