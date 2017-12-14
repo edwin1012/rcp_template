@@ -7,6 +7,14 @@
       <fragment
             uri="fragment.e4xmi">
       </fragment>
+      <processor
+            apply="always"
+            beforefragment="false"
+            class="com.company.e4.contribute.processors.MenuProcessor">
+         <element
+               id="org.eclipse.ui.file.menu">
+         </element>
+      </processor>
    </extension>
 
 </plugin>
