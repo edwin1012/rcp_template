@@ -16,6 +16,10 @@
                name="appName"
                value="com.company.e4.rcp">
          </property>
+         <property
+               name="rendererFactoryUri"
+               value="bundleclass://com.company.e4.renderer.swt/com.company.e4.renderer.swt.MyRenderderFactory">
+         </property>
       </product>
    </extension>
 

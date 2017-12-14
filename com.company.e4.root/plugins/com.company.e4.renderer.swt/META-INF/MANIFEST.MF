@@ -5,6 +5,13 @@ Bundle-SymbolicName: com.company.e4.renderer.swt
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: com.company.e4.renderer.swt.internal.Activator
 Bundle-Vendor: COMPANY
-Require-Bundle: org.eclipse.core.runtime
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.e4.core.contexts,
+ org.eclipse.e4.ui.workbench.renderers.swt,
+ org.eclipse.e4.ui.workbench.swt,
+ org.eclipse.e4.ui.workbench,
+ org.eclipse.e4.core.services,
+ org.eclipse.e4.ui.model.workbench,
+ org.eclipse.swt
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy

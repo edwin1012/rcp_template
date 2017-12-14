@@ -16,6 +16,7 @@ Require-Bundle: javax.inject,
  org.eclipse.e4.core.contexts,
  org.eclipse.core.runtime,
  org.eclipse.e4.core.services,
- org.eclipse.osgi.services
+ org.eclipse.osgi.services,
+ com.company.e4.renderer.swt
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
