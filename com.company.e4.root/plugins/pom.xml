@@ -17,5 +17,6 @@
 		<module>com.company.e4.plugin1</module>
 		<module>com.company.e4.rcp</module>
 		<module>com.company.e4.contribute</module>
+		<module>com.company.e4.renderer.swt</module>
 	</modules>
 </project>

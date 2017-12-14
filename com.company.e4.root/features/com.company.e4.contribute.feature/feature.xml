@@ -24,4 +24,11 @@
          version="1.0.0.qualifier"
          unpack="false"/>
 
+   <plugin
+         id="com.company.e4.renderer.swt"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.qualifier"
+         unpack="false"/>
+
 </feature>
