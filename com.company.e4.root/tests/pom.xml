@@ -15,6 +15,7 @@
 	
 	<modules>
 		<module>com.company.e4.plugin1.tests</module>
+		<module>com.company.e4.rcp.tests</module>
 	</modules>
 	
 	<build>

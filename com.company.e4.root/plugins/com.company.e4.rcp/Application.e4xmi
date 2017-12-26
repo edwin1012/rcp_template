@@ -17,12 +17,17 @@
       <children xsi:type="menu:Menu" xmi:id="__2_N4N_IEeegcqUJ4AFEtw" elementId="org.eclipse.ui.file.menu" label="File">
         <children xsi:type="menu:HandledMenuItem" xmi:id="_CkWzEN_JEeegcqUJ4AFEtw" elementId="org.eclipse.ui.file.menu" label="Open"/>
       </children>
+      <children xsi:type="menu:Menu" xmi:id="_wqxKsObAEeebRd6G3WESOg" elementId="com.company.e4.rcp.menu.style" label="스타일">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_zti_MObAEeebRd6G3WESOg" elementId="com.company.e4.rcp.handledmenuitem.switchTheme" label="변경" tooltip="스타일 변경" command="_E-KycObBEeebRd6G3WESOg"/>
+      </children>
     </mainMenu>
   </children>
+  <handlers xmi:id="_H7EBYObBEeebRd6G3WESOg" elementId="com.company.e4.rcp.handler.switchTheme" contributionURI="bundleclass://com.company.e4.rcp/com.company.e4.rcp.internal.handlers.ThemeSwitchHandler" command="_E-KycObBEeebRd6G3WESOg"/>
   <rootContext xmi:id="_c3AF2cjYEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
     <children xmi:id="_c3AF2sjYEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
     <children xmi:id="_c3AF28jYEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
   </rootContext>
+  <commands xmi:id="_E-KycObBEeebRd6G3WESOg" elementId="com.company.e4.rcp.command.switchTheme" commandName="스타일 변경"/>
   <addons xmi:id="_c3AF0sjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_c3AF08jYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_c3AF1MjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>

@@ -20,7 +20,24 @@
                name="rendererFactoryUri"
                value="bundleclass://com.company.e4.renderer.swt/com.company.e4.renderer.swt.MyRenderderFactory">
          </property>
+         <property
+               name="lifeCycleURI"
+               value="bundleclass://com.company.e4.rcp/com.company.e4.rcp.internal.LifeCycleManager">
+         </property>
       </product>
+   </extension>
+   <extension
+         point="org.eclipse.e4.ui.css.swt.theme">
+      <theme
+            basestylesheeturi="css/default.css"
+            id="com.company.e4.rcp.theme.default"
+            label="RCP default css">
+      </theme>
+      <theme
+            basestylesheeturi="css/nothing.css"
+            id="com.company.e4.rcp.theme.nothing"
+            label="RCP nothing css">
+      </theme>
    </extension>
 
 </plugin>
