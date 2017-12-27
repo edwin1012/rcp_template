@@ -5,19 +5,22 @@ Bundle-SymbolicName: com.company.e4.rcp;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: com.company.e4.rcp.internal.Activator
 Bundle-Vendor: COMPANY
-Require-Bundle: javax.inject,
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.osgi.services,
  org.eclipse.swt,
- org.eclipse.e4.ui.model.workbench,
  org.eclipse.jface,
+ javax.inject,
+ org.eclipse.e4.core.di,
+ org.eclipse.e4.core.di.extensions,
+ org.eclipse.e4.core.contexts,
+ org.eclipse.e4.core.services,
+ org.eclipse.e4.ui.model.workbench,
  org.eclipse.e4.ui.css.swt.theme,
  org.eclipse.e4.ui.services,
  org.eclipse.e4.ui.workbench,
- org.eclipse.e4.core.di,
  org.eclipse.e4.ui.di,
- org.eclipse.e4.core.contexts,
- org.eclipse.core.runtime,
- org.eclipse.e4.core.services,
- org.eclipse.osgi.services,
+ org.eclipse.e4.ui.css.core,
+ org.eclipse.e4.ui.css.swt,
  com.company.e4.renderer.swt
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
